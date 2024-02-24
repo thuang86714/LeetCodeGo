@@ -16,6 +16,7 @@ Example 2:
 Input: nums = [0]
 Output: [[],[0]]
 */
+package leetcodego
 func subsets(nums []int) [][]int {
     result := [][]int{}
     helper(&result, nums, []int{}, 0)
