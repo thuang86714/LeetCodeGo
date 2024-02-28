@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 func twoSum(nums []int, target int) []int {
     //credit to krex0r
