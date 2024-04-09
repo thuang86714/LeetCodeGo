@@ -1,7 +1,4 @@
-type ListNode struct {
-    Val int
-    Next *ListNode
-}
+package leetcodego
 
  func mergeInBetween(list1 *ListNode, a int, b int, list2 *ListNode) *ListNode {
     //TC O(n), SC O(1)

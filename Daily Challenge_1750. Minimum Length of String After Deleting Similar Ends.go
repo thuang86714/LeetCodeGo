@@ -1,3 +1,5 @@
+package leetcodego
+
 func minimumLength(s string) int {
     //two pointer, TC O(n), SC O(1)
     left, right := 0, len(s) - 1

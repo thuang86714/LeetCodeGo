@@ -1,3 +1,5 @@
+package leetcodego
+
 func pivotInteger(n int) int {
     //binary search, TC O(logn), SC O(1)
     left, right := 1, n

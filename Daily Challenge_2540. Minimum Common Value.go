@@ -1,3 +1,5 @@
+package leetcodego
+
 func getCommon(nums1 []int, nums2 []int) int {
     //TC O(n), SC O(1)
     idx1, idx2 := 0, 0
