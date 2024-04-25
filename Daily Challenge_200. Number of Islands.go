@@ -1,6 +1,6 @@
 package leetcodego
 
-var dirs = [][]int{{1,0}, {0, 1}, {-1, 0}, {0, -1}}
+
 func findThisIsland(x, y int, grid [][]byte){
     //dfs
     if grid[x][y] == '0'{
