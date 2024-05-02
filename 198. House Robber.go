@@ -1,3 +1,9 @@
+package leetcodego
+
+import (
+    "slices"
+)
+
 func rob(nums []int) int {
     if(len(nums) <= 2){
         return slices.Max(nums)

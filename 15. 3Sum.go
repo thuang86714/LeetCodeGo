@@ -1,3 +1,5 @@
+package leetcodego
+
 func threeSum(nums []int) [][]int {
     //TC O(nlogn), SC O(1)
     resultSlice := [][]int{}

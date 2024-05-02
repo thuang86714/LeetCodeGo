@@ -5,6 +5,7 @@
  *     Next *ListNode
  * }
  */
+package leetcodego
  func reverseBetween(head *ListNode, left int, right int) *ListNode {
     //TC O(n), SC O(n)
     dummy := &ListNode{0, head}

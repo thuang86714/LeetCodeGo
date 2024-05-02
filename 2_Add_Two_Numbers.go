@@ -14,6 +14,7 @@ Explanation: 342 + 465 = 807.
  *     Next *ListNode
  * }
  */
+ package leetcodego
  func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     carry, dummy := 0, new(ListNode);//new() would return pointer
     for node:= dummy; l1 != nil || l2 != nil || carry >0; node = node.Next{

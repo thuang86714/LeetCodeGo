@@ -1,3 +1,4 @@
+package leetcodego
 func lengthOfLongestSubstring(s string) int {
     //credit to andik, TC O(n^2), SC O(1)
     dict := [128]bool{}

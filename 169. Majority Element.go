@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 import(
 	"sort"
@@ -9,7 +9,7 @@ func majorityElement(nums []int) int {
     sort.Ints(nums)
     return nums[len(nums)/2]
 }
-
+/*
 func majorityElement(nums []int) int {
     //TC O(n), SC O(1)
     count, majority := 0, 0
@@ -25,3 +25,4 @@ func majorityElement(nums []int) int {
     }
     return majority
 }
+*/

@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 func maxProfit(prices []int) int {
     curMin, ans:= 100000, 0

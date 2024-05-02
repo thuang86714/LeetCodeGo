@@ -1,3 +1,4 @@
+package leetcodego
 func removeDuplicates(nums []int) int {
     //TC O(n), SC O(1)
     count := 0;

@@ -1,3 +1,4 @@
+package leetcodego
 func mySqrt(x int) int {
     l, r := 0, x
     for l < x{

@@ -6,6 +6,8 @@
  *     Right *TreeNode
  * }
  */
+ package leetcodego
+
  func findSum(root *TreeNode, sum int) int {
     //DFS TC O(n), SC O(logn)
     ans := 0

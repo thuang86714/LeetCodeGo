@@ -1,4 +1,4 @@
-
+package leetcodego
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {

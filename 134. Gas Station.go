@@ -1,3 +1,5 @@
+package leetcodego
+
 func canCompleteCircuit(gas []int, cost []int) int {
     //TC O(n), SC O(1)
     gasSum, costSum, diff, index := 0, 0, 0, 0

@@ -1,3 +1,5 @@
+package leetcodego
+
 func maxArea(height []int) int {
     //TC O(n), SC O(1)
     water, left, right := 0, 0, len(height) - 1

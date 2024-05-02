@@ -16,6 +16,7 @@ Example 2:
 Input: nums = [2,0,1]
 Output: [0,1,2]
 */
+package leetcodego
 func sortColors(nums []int)  {
     low, mid, high := 0, 0, len(nums)-1
     for mid <= high{

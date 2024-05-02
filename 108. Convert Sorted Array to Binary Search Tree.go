@@ -1,3 +1,5 @@
+package leetcodego
+
 type TreeNode struct {
     Val int
     Left *TreeNode

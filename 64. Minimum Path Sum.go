@@ -1,3 +1,4 @@
+package leetcodego
 func minPathSum(grid [][]int) int {
     m, n := len(grid), len(grid[0])
     for i := 1; i < n; i++{

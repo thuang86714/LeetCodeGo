@@ -1,3 +1,5 @@
+package leetcodego
+
 func rotate(nums []int, k int)  {
     //TC O(n), SC O(1)
     k %= len(nums)
@@ -14,7 +16,7 @@ func rotate(nums []int, k int)  {
         nums[left], nums[right] = nums[right], nums[left]
     }
 }
-
+/*
 func rotate(nums []int, k int) {
     // Get the length of the array
     n := len(nums)
@@ -38,3 +40,4 @@ func reverse(nums []int) {
         nums[left], nums[right] = nums[right], nums[left]
     }
 }
+*/

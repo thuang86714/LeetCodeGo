@@ -1,3 +1,4 @@
+package leetcodego
 func plusOne(digits []int) []int {
     length := len(digits)
     if digits[length - 1] != 9{

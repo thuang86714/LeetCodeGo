@@ -1,5 +1,9 @@
+package leetcodego
+
 import(
-	"unicode"
+	"unicode",
+    "regexp",
+    "strings",
 )
 
 func isPalindrome(s string) bool {
@@ -22,10 +26,7 @@ func isPalindrome(s string) bool {
 }
 
 //credit to golang official
-import (
-    "regexp"
-    "strings"
-)
+
 
 func reverse(s string) string {
     r := []rune(s)

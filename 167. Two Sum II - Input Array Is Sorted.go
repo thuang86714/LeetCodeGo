@@ -1,4 +1,5 @@
-func twoSum(numbers []int, target int) []int {
+package leetcodego
+func twoSum2(numbers []int, target int) []int {
     //binary search, TC O(logn), SC O(1)
     left, right := 0, len(numbers) -1
     for left < right{

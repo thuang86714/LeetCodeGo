@@ -1,3 +1,5 @@
+package leetcodego
+
 func minimumTotal(triangle [][]int) int {
     //TC O(n), SC O(1)
     height := len(triangle)

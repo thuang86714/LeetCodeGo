@@ -1,3 +1,9 @@
+package leetcodego
+
+import (
+    "strings"
+)
+
 func maximumOddBinaryNumber(s string) string {
     //TC O(n), SC O(1)
     oneCount, zeroCount := 0, 0

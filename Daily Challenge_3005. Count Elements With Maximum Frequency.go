@@ -1,3 +1,5 @@
+package leetcodego
+
 func maxFrequencyElements(nums []int) int {
     //TC O(n), SC O(1)
     countSlice := make([]int, 101)

@@ -16,6 +16,8 @@ Example 2:
 
 Input: s = "cbbd"
 Output: "bb"*/
+
+package leetcodego
 func longestPalindrome(s string) string {
     //TC = O(N^2), SC = O(1)
     length := len(s)

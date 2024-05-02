@@ -6,7 +6,8 @@
  *     Random *Node
  * }
  */
-
+ package leetcodego
+ 
  func copyRandomList(head *Node) *Node {
     //map + lined list, TC O(n), SC O(n)
     if head == nil{

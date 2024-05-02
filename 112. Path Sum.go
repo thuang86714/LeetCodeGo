@@ -6,6 +6,8 @@
  *     Right *TreeNode
  * }
  */
+ package leetcodego
+
  func hasPathSum(root *TreeNode, targetSum int) bool {
     //DFS, TC O(n), SC O(logn)
     if root == nil{

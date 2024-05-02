@@ -1,3 +1,9 @@
+package leetcodego
+
+import(
+    "strings"
+)
+
 func reverseWords(s string) string {
     //credit to vibhushit
     //Returns: A slice of substrings of str or an empty slice if str contains only white space.

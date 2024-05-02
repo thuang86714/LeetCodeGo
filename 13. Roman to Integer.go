@@ -1,3 +1,5 @@
+package leetcodego
+
 func romanToInt(s string) int {
     //credit to klakovskiy
     prevVal, curVal, res := 0, 0, 0

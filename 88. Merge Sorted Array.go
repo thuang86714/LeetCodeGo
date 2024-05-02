@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 func merge(nums1 []int, m int, nums2 []int, n int)  {
     //TC O(m+n), SC O(1)

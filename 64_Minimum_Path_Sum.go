@@ -10,7 +10,7 @@ Example 2:
 
 Input: grid = [[1,2,3],[4,5,6]]
 Output: 12*/
-
+package leetcodego
 func minPathSum(grid [][]int) int {
     //can't go greedy, local minimum doesn't lead to total minimum
     //TC O(n), SC O(1)

@@ -7,6 +7,7 @@
  *     Next *Node
  * }
  */
+ package leetcodego
 
  func connect(root *Node) *Node {
 	//bfs, TC O(n), SC O(n)

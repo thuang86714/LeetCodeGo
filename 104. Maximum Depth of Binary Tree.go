@@ -1,5 +1,5 @@
-package leetcodedynamicprogramming
-package math
+package leetcodego
+
 
 type TreeNode struct {
     Val int
