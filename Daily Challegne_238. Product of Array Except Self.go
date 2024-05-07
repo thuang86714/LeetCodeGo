@@ -1,3 +1,4 @@
+package leetcodego
 func productExceptSelf(nums []int) []int {
     //TC O(n), SC O(1)
     res := make([]int, len(nums))

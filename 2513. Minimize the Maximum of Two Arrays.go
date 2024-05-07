@@ -1,3 +1,4 @@
+package leetcodego
 func longestOnes(nums []int, k int) int {
     zeroCount, maxLen, left := 0, 0, 0
     for right := 0; right < len(nums); right++{

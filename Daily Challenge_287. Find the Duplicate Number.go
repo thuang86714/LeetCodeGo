@@ -1,3 +1,4 @@
+package leetcodego
 func findDuplicate(nums []int) int {
     left, right := 1, len(nums) - 1
     for left <= right{

@@ -1,3 +1,4 @@
+package leetcodego
 func missingNumber(nums []int) int {
     lens := len(nums)
     sum := lens*(lens + 1)/2

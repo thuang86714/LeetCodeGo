@@ -1,3 +1,4 @@
+package leetcodego
 func setDifference(a, b []int) []int{
     count := [2001]bool{}
     ans := []int{}

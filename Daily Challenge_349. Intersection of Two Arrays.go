@@ -1,3 +1,4 @@
+package leetcodego
 func intersection(nums1 []int, nums2 []int) []int {
     //TC O(m+n), SC O(m+n)
     dict1, dict2 := make(map[int]bool), make(map[int]bool)

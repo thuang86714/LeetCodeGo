@@ -1,3 +1,4 @@
+package leetcodego
 func insert(intervals [][]int, newInterval []int) [][]int {
     res := [][]int{}
     i := 0

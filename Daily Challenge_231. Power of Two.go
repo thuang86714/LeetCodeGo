@@ -1,3 +1,5 @@
+package leetcodego
+
 func isPowerOfTwo(n int) bool {
     //TC O(logn), SC O(1)
     if n == 1{

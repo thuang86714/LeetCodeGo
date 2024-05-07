@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 func firstUniqChar(s string) int {
     //credit to maxyzli, TC O(n), SC O(1)

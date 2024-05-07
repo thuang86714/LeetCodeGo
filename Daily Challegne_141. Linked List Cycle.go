@@ -5,6 +5,7 @@
  *     Next *ListNode
  * }
  */
+ package leetcodego
  func hasCycle(head *ListNode) bool {
     //TC O(n), SC O(1)
     if head == nil{
