@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 func numSubmatrixSumTarget(matrix [][]int, target int) int {
     //credit to briangchiang_tw, TC O(h*w*w), SC O(h)

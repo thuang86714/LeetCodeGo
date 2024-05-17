@@ -1,3 +1,5 @@
+package leetcodego
+
 func numSubarraysWithSum(nums []int, goal int) int {
     //credit to lee215 and Ruolinbi, TC O(n), SC O(1)
     var atMostSubArray func([]int, int) int

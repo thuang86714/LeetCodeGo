@@ -1,3 +1,7 @@
+package leetcodego
+import(
+    "sort"
+)
 func bagOfTokensScore(tokens []int, power int) int {
     //TC O(nlogn), SC O(1), greedy
     ans, score, left, right := 0, 0, 0, len(tokens) - 1

@@ -5,7 +5,8 @@
  *     Next *ListNode
  * }
  */
- func middleNode(head *ListNode) *ListNode {
+package leetcodego
+func middleNode(head *ListNode) *ListNode {
     //TC O(n), SC O(1)
     if head == nil || head.Next == nil{
         return head
