@@ -17,7 +17,10 @@ The distinct triplets are [-1,0,1] and [-1,-1,2].
 Notice that the order of the output and the order of the triplets does not matter.*/
 
 package leetcodego
-func threeSum(nums []int) [][]int {
+import(
+    "sort"
+)
+func threeSum2(nums []int) [][]int {
     result := [][]int{}
     sort.Ints(nums)
     for i := 0; i < len(nums)-2; i++{

@@ -8,7 +8,7 @@ Example 1:
 Input: digits = "23"
 Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]*/
 package leetcodego
-func letterCombinations(digits string) []string {
+func letterCombinations2(digits string) []string {
 	//an alias for the unsigned integer 8 type ( uint8
     Map := map[byte][]string{
         '2': []string{"a", "b", "c"},

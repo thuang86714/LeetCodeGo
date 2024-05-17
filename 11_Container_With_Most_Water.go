@@ -27,7 +27,7 @@ func Max(x, y int) int{
         return x
     }
 }
-func maxArea(height []int) int {
+func maxArea2(height []int) int {
     water, l, r := 0, 0, len(height)-1
     for l < r{
         h := Min(height[r], height[l])

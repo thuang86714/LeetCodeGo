@@ -17,6 +17,8 @@ Example 1:
 
 Input: nums = [1,2,3]
 Output: [1,3,2]*/
+package leetcodego
+
 func nextPermutation(nums []int)  {
     k, l := len(nums)-2, len(nums)-1
     for ; k >= 0; k--{
@@ -25,7 +27,7 @@ func nextPermutation(nums []int)  {
         }
     }
     if k<0{
-        reverse(nums)
+        reverse2(nums)
     }else{
         for ; l > k;l--{
             if nums[l] > nums[k]{
@@ -33,11 +35,11 @@ func nextPermutation(nums []int)  {
             }
         } 
         nums[l], nums[k] = nums[k], nums[l]
-        reverse(nums[k+1:])
+        reverse2(nums[k+1:])
     }
 }
 
-func reverse(slice []int) {
+func reverse2(slice []int) {
     n := len(slice)
     for i ,j := 0, n-1; i < j; i, j = i+1, j-1{
         slice[i], slice[j] = slice[j], slice[i]

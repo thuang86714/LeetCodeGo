@@ -15,6 +15,10 @@ Example 2:
 Input: nums = [1,2,3]
 Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 */
+package leetcodego
+import(
+    "sort"
+)
 func permuteUnique(nums []int) [][]int {
 	//credit to JieBai
     if len(nums) == 0 {
@@ -24,11 +28,11 @@ func permuteUnique(nums []int) [][]int {
     res := make([][]int, 0)
     visited := make(map[int]bool)
     list := make([]int, 0)
-    backTrack(nums, visited, list, &res) 
+    backTrack4(nums, visited, list, &res) 
     return res
 }
 
-func backTrack(nums []int, visited map[int]bool, list []int, res *[][]int) {
+func backTrack4(nums []int, visited map[int]bool, list []int, res *[][]int) {
     //back track goal, length of list equals to length of nums
     if len(list) == len(nums) {
         temp := make([]int, len(list))
@@ -47,7 +51,7 @@ func backTrack(nums []int, visited map[int]bool, list []int, res *[][]int) {
         }
         list = append(list, nums[i])
         visited[i] = true
-        backTrack(nums, visited, list, res)
+        backTrack4(nums, visited, list, res)
         list = list[:len(list) - 1]
         visited[i] = false
     }

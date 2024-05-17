@@ -1,3 +1,5 @@
+package leetcodego
+
 func leastInterval(tasks []byte, n int) int {
     //credit to beetlecamera and pegsmanoo
     charCountMap := map[byte]int{}

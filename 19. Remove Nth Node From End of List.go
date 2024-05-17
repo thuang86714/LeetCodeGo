@@ -5,6 +5,7 @@
  *     Next *ListNode
  * }
  */
+package leetcodego
  func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	//TC O(n), SC O(1)
     dummy := ListNode{0, head}

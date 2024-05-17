@@ -1,3 +1,7 @@
+package leetcodego
+import(
+    "sort"
+)
 func findMinArrowShots(points [][]int) int {
     //TC O(nlogn), SC O(1)
     arrow := 1

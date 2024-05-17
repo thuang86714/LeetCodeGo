@@ -14,7 +14,9 @@ Example 1:
 Input: nums = [4,5,6,7,0,1,2], target = 0
 Output: 4
 */
-func search(nums []int, target int) int {
+package leetcodego
+
+func search2(nums []int, target int) int {
 	//credit to neetcode
     //require solution in time complexity O(log n), possibly hinting using binary search
     l, r := 0, len(nums)-1
@@ -43,36 +45,36 @@ func search(nums []int, target int) int {
     return -1
 }
 
-func search(nums []int, target int) int {
-    n := len(nums)
-    //credit to casd82
-    // Find the pivot.
-    left, right := 0, n-1
-    for left < right {
-        mid := left+(right-left)/2
-        if nums[mid] > nums[right] {
-            left = mid+1
-        } else {
-            right = mid
-        }
-    }
+// func search(nums []int, target int) int {
+//     n := len(nums)
+//     //credit to casd82
+//     // Find the pivot.
+//     left, right := 0, n-1
+//     for left < right {
+//         mid := left+(right-left)/2
+//         if nums[mid] > nums[right] {
+//             left = mid+1
+//         } else {
+//             right = mid
+//         }
+//     }
     
-    pivot := left
+//     pivot := left
     
-	// Regular binary search
-    left, right = pivot, pivot-1+n
-    for left <= right {
-        mid := left+(right-left)/2
-        midVal := nums[mid % n]
+// 	// Regular binary search
+//     left, right = pivot, pivot-1+n
+//     for left <= right {
+//         mid := left+(right-left)/2
+//         midVal := nums[mid % n]
         
-        if midVal > target {
-            right = mid-1
-        } else if midVal < target {
-            left = mid+1
-        } else {
-            return mid % n
-        }
-    }
+//         if midVal > target {
+//             right = mid-1
+//         } else if midVal < target {
+//             left = mid+1
+//         } else {
+//             return mid % n
+//         }
+//     }
     
-    return -1
-}
+//     return -1
+// }

@@ -1,3 +1,5 @@
+package leetcodego
+
 func searchInsert(nums []int, target int) int {
 	//binary search, TC O(logn)-->since it's a sorted slice, SC O(1)
     left, right := 0, len(nums) - 1

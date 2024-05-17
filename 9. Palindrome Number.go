@@ -1,6 +1,6 @@
 package leetcodego
 
-func isPalindrome(x int) bool {
+func isPalindrome2(x int) bool {
     if x < 0 || (x > 0 && x%10 == 0){
         return false
     }

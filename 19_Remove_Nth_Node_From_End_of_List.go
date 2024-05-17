@@ -22,7 +22,9 @@ Output: []
  *     Next *ListNode
  * }
  */
-func removeNthFromEnd(head *ListNode, n int) *ListNode {
+package leetcodego
+
+func removeNthFromEnd2(head *ListNode, n int) *ListNode {
     dummy := ListNode{0, head}
     left, right := &dummy, &dummy
     for i:=0; i < n; i++{

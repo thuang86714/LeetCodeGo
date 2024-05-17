@@ -1,10 +1,6 @@
-package leetcodedynamicprogramming
-type ListNode struct {
-    Val int
-    Next *ListNode
-}
+package leetcodego
 
- func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
+ func mergeTwoLists2(list1 *ListNode, list2 *ListNode) *ListNode {
     //credit to dorlib
     dummy := &ListNode{}
     cur := dummy

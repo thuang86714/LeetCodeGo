@@ -13,6 +13,9 @@ Input: nums = [-1,2,1,-4], target = 1
 Output: 2
 Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).*/
 package leetcodego
+import(
+    "sort"
+)
 func threeSumClosest(nums []int, target int) int {
     sort.Ints(nums)
     n := len(nums)
@@ -36,10 +39,3 @@ func threeSumClosest(nums []int, target int) int {
     }
     return sum
 }
-
-func abs(x int) int{
-    if x < 0{
-        return -x
-    }
-    return x
-} 

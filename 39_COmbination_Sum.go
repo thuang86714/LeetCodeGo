@@ -18,6 +18,10 @@ Explanation:
 7 is a candidate, and 7 = 7.
 These are the only two combinations.
 */
+package leetcodego
+import(
+    "sort"
+)
 func combinationSum(candidates []int, target int) [][]int {
 	//credit to ganesh
     result := [][]int{}
@@ -25,11 +29,11 @@ func combinationSum(candidates []int, target int) [][]int {
         return result
     }
     sort.Ints(candidates)
-    backtrack(&result, make([]int, 0), candidates, target, 0)
+    backtrack3(&result, make([]int, 0), candidates, target, 0)
     return result
 }
 
-func backtrack(res *[][]int, temp, nums []int, target int, i int) {
+func backtrack3(res *[][]int, temp, nums []int, target int, i int) {
     if target == 0 {
         cpyTemp := make([]int, len(temp))
         copy(cpyTemp, temp)
@@ -39,7 +43,7 @@ func backtrack(res *[][]int, temp, nums []int, target int, i int) {
 
     for i < len(nums) && target - nums[i]>=0{
         temp = append(temp, nums[i])
-        backtrack(res, temp, nums, target - nums[i], i)
+        backtrack3(res, temp, nums, target - nums[i], i)
         i++
         temp = temp[:len(temp)-1]
     }

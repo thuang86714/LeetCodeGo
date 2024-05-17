@@ -1,7 +1,6 @@
-package leetcodedynamicprogramming
+package leetcodego
 
-
-func removeDuplicates(nums []int) int {
+func removeDuplicates2(nums []int) int {
     //TC O(n), SC O(1)
     count := 0
     for i := 1; i < len(nums); i++{

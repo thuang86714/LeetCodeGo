@@ -1,4 +1,6 @@
-func isValid(s string) bool {
+package leetcodego
+
+func isValid2(s string) bool {
     //credit to vsir, TC O(n), SC O(n)
     if len(s) == 0 || len(s)%2 == 1{
         return false

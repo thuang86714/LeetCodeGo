@@ -1,5 +1,7 @@
 package leetcodego
-
+import(
+    "sort"
+)
 func longestCommonPrefix(strs []string) string {
     sort.Strings(strs)
     firstStr, lastStr := strs[0], strs[len(strs) - 1]

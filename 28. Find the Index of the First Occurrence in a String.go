@@ -1,3 +1,5 @@
+package leetcodego
+
 func strStr(haystack string, needle string) int {
     //credit to shikuan, TC O(n), SC O(1)
     if needle == ""{

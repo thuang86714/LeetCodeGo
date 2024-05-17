@@ -6,7 +6,7 @@
  * }
  */
  package leetcodego
- func isPalindrome(head *ListNode) bool {
+ func isPalindrome3(head *ListNode) bool {
     //TC O(n), SC O(1)
     slow, fast, prev, temp := head, head, head, head
     for fast != nil && fast.Next != nil{

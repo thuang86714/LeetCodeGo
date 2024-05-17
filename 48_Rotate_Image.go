@@ -5,6 +5,8 @@ You have to rotate the image in-place, which means you have to modify the input 
 Example:
 Input: matrix = [[1,2,3],[4,5,6],[7,
 */
+package leetcodego
+
 func rotate(matrix [][]int)  {
 	//credit to pixalquarks
     n := len(matrix)

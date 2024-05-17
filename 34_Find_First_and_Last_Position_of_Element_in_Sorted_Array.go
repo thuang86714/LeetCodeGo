@@ -16,6 +16,8 @@ Example 2:
 Input: nums = [5,7,7,8,8,10], target = 6
 Output: [-1,-1]
 */
+package leetcodego
+
 func searchRange(nums []int, target int) []int {
 	//credit to needcode and johnson_xie(global_cache)
     l, r := 0, len(nums)-1

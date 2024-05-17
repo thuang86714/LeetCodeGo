@@ -1,5 +1,7 @@
-package leetcodedynamicprogramming
-
+package leetcodego
+import(
+    "fmt"
+)
 func removeElement(nums []int, val int) int {
 	//TC O(n), SC O(1)
     slow := 0

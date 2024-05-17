@@ -16,7 +16,7 @@ Input: s = "bbbbb"
 Output: 1
 Explanation: The answer is "b", with the length of 1.*/
 package leetcodego
-func lengthOfLongestSubstring(s string) int {
+func lengthOfLongestSubstring2(s string) int {
     dict := [128]bool{}//s consists of English letters, digits, symbols and spaces.
     length, maxstr := 0, 0
     for i, j :=0, 0; i < len(s); i++{

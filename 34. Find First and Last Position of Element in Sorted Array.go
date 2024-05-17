@@ -1,6 +1,6 @@
 package leetcodego
 
-func searchRange(nums []int, target int) []int {
+func searchRange2(nums []int, target int) []int {
     //binary search to find the left and right bound. TC O(logn), SC O(1)
     left, right := 0, len(nums) - 1
     ans := []int{-1, -1}

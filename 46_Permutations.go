@@ -16,14 +16,15 @@ Example 3:
 Input: nums = [1]
 Output: [[1]] 
 */
+package leetcodego
 
 func permute(nums []int) [][]int {
     var result [][]int
-    backtrack(&result, nums, 0)
+    backtrack5(&result, nums, 0)
     return result
 }
 
-func backtrack(res *[][]int, nums []int, idx int){
+func backtrack5(res *[][]int, nums []int, idx int){
     if idx >= len(nums){
         cpy := make([]int, len(nums))
         copy(cpy, nums)
@@ -33,7 +34,7 @@ func backtrack(res *[][]int, nums []int, idx int){
 
     for i:=idx; i < len(nums); i++{
         nums[i], nums[idx] = nums[idx], nums[i]
-        backtrack(res, nums, idx+1)
+        backtrack5(res, nums, idx+1)
         nums[i], nums[idx] = nums[idx], nums[i]
     }
 }
