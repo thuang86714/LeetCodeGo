@@ -1,3 +1,5 @@
+package leetcodego
+
 func maxVowels(s string, k int) int {
     //TC O(n), SC O(1)
     charMap := map[byte]bool{

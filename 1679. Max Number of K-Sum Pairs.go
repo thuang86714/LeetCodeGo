@@ -1,3 +1,5 @@
+package leetcodego
+
 func maxOperations(nums []int, k int) int {
     //TC O(n), SC O(n)
     dict := make(map[int]int)

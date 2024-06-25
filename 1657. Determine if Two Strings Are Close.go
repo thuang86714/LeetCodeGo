@@ -1,3 +1,5 @@
+package leetcodego
+
 func closeStrings(word1 string, word2 string) bool {
     charCount1, charCount2, charCount3, charCount4 := make([]int, 26),  make([]int, 26),  make([]int, 26),  make([]int, 26)
     for _, ch := range word1{

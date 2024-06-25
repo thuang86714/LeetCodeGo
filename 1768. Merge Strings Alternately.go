@@ -1,3 +1,5 @@
+package leetcodego
+
 func mergeAlternately(word1 string, word2 string) string {
     i, j := 0, 0
     ans := ""
