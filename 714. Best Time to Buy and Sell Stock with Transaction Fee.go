@@ -1,4 +1,6 @@
-func maxProfit(prices []int, fee int) int {
+package leetcodego
+
+func maxProfit3(prices []int, fee int) int {
 	n := len(prices)
 	memo := make([][]int, n)
 	for i := range memo {

@@ -6,7 +6,7 @@
  *               otherwise return 0
  * func guess(num int) int;
  */
-
+ package leetcodego
  func guessNumber(n int) int {
     left, right := 1, n
     for left <= right{

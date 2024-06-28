@@ -1,9 +1,7 @@
-type TreeNode struct {
-    Val int
-    Left *TreeNode
-    Right *TreeNode
-}
-
+package leetcodego
+import(
+    "math"
+)
 //credit to harotobira
 var curMin = math.MaxInt32
 func getMinimumDifference(root *TreeNode) int {

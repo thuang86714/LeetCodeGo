@@ -1,5 +1,7 @@
 package leetcodego
-
+import(
+    "sort"
+)
 func numRescueBoats(people []int, limit int) int {
     //TC O(nlogn), SC O(1)
     sort.Ints(people)

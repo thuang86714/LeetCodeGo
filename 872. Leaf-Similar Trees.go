@@ -7,6 +7,10 @@
  * }
  */
  //partial credit to prodonik
+ package leetcodego
+ import(
+    "reflect"
+ )
 func traverseAllLeaves(root *TreeNode, leaves *[]int) {//2nd arg is pass by reference
     //dfs, TC O(n), SC O(logn)
     if root == nil{

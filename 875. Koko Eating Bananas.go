@@ -1,3 +1,5 @@
+package leetcodego
+
 func minEatingSpeed(piles []int, h int) int {
     //k has an interval [1, *max_element(piles.begin(), miles.end())];
     //need to find the k that KoKo could cosume all bananas just in time

@@ -6,7 +6,8 @@
  *     Right *TreeNode
  * }
  */
-
+ package leetcodego
+ 
  func searchBST(root *TreeNode, val int) *TreeNode {
     if root == nil{
         return nil

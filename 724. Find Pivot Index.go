@@ -1,3 +1,4 @@
+package leetcodego
 func pivotIndex(nums []int) int {
     leftSum, rightSum := 0, 0
     for i := 0; i < len(nums); i++{

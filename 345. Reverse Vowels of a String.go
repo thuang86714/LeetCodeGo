@@ -1,4 +1,8 @@
 //credit to tr1nity
+package leetcodego
+import(
+    "unicode"
+)
 func isVowel(c rune) bool{
     c = unicode.ToLower(c)
     return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'

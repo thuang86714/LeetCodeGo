@@ -1,3 +1,7 @@
+package leetcodego
+import(
+    "strconv"
+)
 func compress(chars []byte) int {
     //credit to ulalawell, TC O(n), SC O(1)
     l, r := 0, 0

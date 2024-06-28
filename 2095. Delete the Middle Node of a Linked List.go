@@ -5,6 +5,7 @@
  *     Next *ListNode
  * }
  */
+ package leetcodego
  func deleteMiddle(head *ListNode) *ListNode {
     //TC O(n), SC O(1)
     dummy := &ListNode{0, head}

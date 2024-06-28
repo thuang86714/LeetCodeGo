@@ -1,3 +1,5 @@
+package leetcodego
+/*
 func canConstruct(ransomNote string, magazine string) bool {
     //credit to josh-ferrell, TC O(n^2), SC O(1)
     for _,v := range ransomNote{
@@ -7,6 +9,7 @@ func canConstruct(ransomNote string, magazine string) bool {
     }
     return true
 }
+*/
 
 func canConstruct(ransomNote string, magazine string) bool {
     //TC O(n), SC O(n)

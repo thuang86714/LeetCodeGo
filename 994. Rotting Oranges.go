@@ -1,3 +1,5 @@
+package leetcodego
+
 func orangesRotting(grid [][]int) int {
     dirs := [][]int{{1, 0}, {0, 1}, {-1, 0}, {0, -1}}
     m, n := len(grid), len(grid[0])

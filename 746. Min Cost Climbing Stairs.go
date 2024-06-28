@@ -1,3 +1,7 @@
+package leetcodego
+import(
+    "slices"
+)
 func minCostClimbingStairs(cost []int) int {
     if(len(cost) < 3){
         return slices.Min(cost)
