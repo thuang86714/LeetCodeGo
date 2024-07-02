@@ -1,6 +1,6 @@
 package leetcodego
 
-func rotate(nums []int, k int)  {
+func rotate2(nums []int, k int)  {
     //TC O(n), SC O(1)
     k %= len(nums)
     //reverse the whole slice first

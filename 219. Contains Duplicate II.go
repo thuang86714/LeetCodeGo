@@ -1,3 +1,4 @@
+package leetcodego
 func containsNearbyDuplicate(nums []int, k int) bool {
     //TC O(n), SC O(n)
     indexMap := make(map[int]int)//using map to keep track of last visited index number

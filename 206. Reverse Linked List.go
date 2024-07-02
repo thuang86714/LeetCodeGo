@@ -7,7 +7,7 @@ package leetcodego
  *     Next *ListNode
  * }
  */
- func reverseList(head *ListNode) *ListNode {
+ func reverseList3(head *ListNode) *ListNode {
     //TC O(n), SC O(n)
     if head == nil{
         return nil

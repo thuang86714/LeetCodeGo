@@ -6,6 +6,7 @@
  *     Right *TreeNode
  * }
  */
+ package leetcodego
  func rightSideView(root *TreeNode) []int {
     //BFS, TC O(n), SC O(n)
     if root == nil{

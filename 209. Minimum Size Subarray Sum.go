@@ -1,4 +1,5 @@
-func minSubArrayLen(target int, nums []int) int {
+package leetcodego
+func minSubArrayLen2(target int, nums []int) int {
     //TC O(n), SC O(1)
     curSum, left, right, curMin:= 0, 0, 0, len(nums) + 1
     for right < len(nums){
