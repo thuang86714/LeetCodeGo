@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 
 type TreeNode struct {
