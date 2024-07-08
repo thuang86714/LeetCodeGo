@@ -1,12 +1,5 @@
 package leetcodego
 
-
-type TreeNode struct {
-    Val int
-    Left *TreeNode
-    Right *TreeNode
-}
-
  func countNodes(root *TreeNode) int {
     leftHeight, rightHeight:= 0, 0
     curR, curL := root, root
