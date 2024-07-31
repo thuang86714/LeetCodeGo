@@ -7,7 +7,7 @@ Input: matrix = [[1,2,3],[4,5,6],[7,
 */
 package leetcodego
 
-func rotate(matrix [][]int)  {
+func rotate6(matrix [][]int)  {
 	//credit to pixalquarks
     n := len(matrix)
     for i := 0; i < n; i++{

@@ -1,3 +1,4 @@
+package leetcodego
 func isAnagram(s string, t string) bool {
     //TC O(s.len + t.len), SC O(1)
     charMap := make(map[rune]int)

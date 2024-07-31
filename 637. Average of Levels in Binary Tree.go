@@ -1,10 +1,5 @@
-package leetcodedynamicprogramming
+package leetcodego
 
-type TreeNode struct {
-    Val int
-    Left *TreeNode
-    Right *TreeNode
-}
 
  func averageOfLevels(root *TreeNode) []float64 {
     //BFS, credit to brianchang_tw, TC O(n), SC O(n)

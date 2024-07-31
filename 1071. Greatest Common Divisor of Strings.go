@@ -1,3 +1,4 @@
+package leetcodego
 func GCD(a, b int) int {
     //credit to vishinoi29
 	for b != 0 {

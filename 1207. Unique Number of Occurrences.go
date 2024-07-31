@@ -1,3 +1,4 @@
+package leetcodego
 func uniqueOccurrences(arr []int) bool {
     //credit to miryang, two unordered_map, 
     countTracker := make(map[int]int)

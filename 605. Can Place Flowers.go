@@ -1,3 +1,4 @@
+package leetcodego
 func canPlaceFlowers(flowerbed []int, n int) bool {
     //TC O(n), SC O(1)
     if n == 0{

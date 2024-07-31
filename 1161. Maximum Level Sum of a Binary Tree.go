@@ -6,7 +6,8 @@
  *     Right *TreeNode
  * }
  */
-
+package leetcodego
+import "math"
  func maxLevelSum(root *TreeNode) int {
     //BFS TC O(n), SC O(n)
     curMax := math.MinInt

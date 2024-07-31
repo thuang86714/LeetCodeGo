@@ -1,3 +1,4 @@
+package leetcodego
 func findJudge(n int, trust [][]int) int {
     count := make([]int, n + 1)
     for _, t:= range(trust){

@@ -1,3 +1,4 @@
+package leetcodego
 func rotate(matrix [][]int)  {
     for i, j := 0, len(matrix) - 1; i < j; i, j = i+1, j -1{
         matrix[i], matrix[j] = matrix[j], matrix[i]

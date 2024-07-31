@@ -16,6 +16,7 @@ Input: nums = [3,2,1,0,4]
 Output: false
 Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
 */
+package leetcodego
 func canJump(nums []int) bool {
     //it's a dp problem
     //working backward

@@ -1,6 +1,6 @@
 package leetcodego
 
-func invertTree(root *TreeNode) *TreeNode {
+func invertTree2(root *TreeNode) *TreeNode {
     if root == nil{
         return nil
     }

@@ -1,12 +1,12 @@
 package leetcodego
 
 import(
-	"unicode",
-    "regexp",
-    "strings",
+	"unicode"
+    "regexp"
+    "strings"
 )
 
-func isPalindrome(s string) bool {
+func isPalindrome7(s string) bool {
     newStr := strings.ToLower(s)
     left, right := 0, len(s) - 1
     for left < right{

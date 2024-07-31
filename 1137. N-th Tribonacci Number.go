@@ -1,6 +1,6 @@
-package leetcodedynamicprogramming
+package leetcodego
 
-func tribonacci(n int) int {
+func tribonacci2(n int) int {
     //credit to srgbl, TC O(n), SC O(1)
     triset := [3]int{0, 1, 1}
     if n < 3 {

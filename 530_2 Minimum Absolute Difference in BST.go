@@ -8,7 +8,7 @@ package leetcodego
  * }
  */
  var prevNode *TreeNode
- var diff int
+ var diff2 int
  
  func findDiff(root *TreeNode) {
 	 if root == nil {
@@ -18,14 +18,14 @@ package leetcodego
 	 findDiff(root.Left)
  
 	 if prevNode != nil {
-		 diff = min(diff, root.Val-prevNode.Val)
+		 diff2 = min(diff2, root.Val-prevNode.Val)
 	 }
 	 prevNode = root
 	 findDiff(root.Right)
  }
  func getMinimumDifference2(root *TreeNode) int {
-	 diff = 100000
+	 diff2 = 100000
 	 prevNode = nil
 	 findDiff(root)
-	 return diff
+	 return diff2
  }

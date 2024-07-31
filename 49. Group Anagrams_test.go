@@ -18,7 +18,7 @@ func Test_groupAnagrams(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := groupAnagrams(tt.args.strs); !reflect.DeepEqual(got, tt.want) {
+			if got := groupAnagrams2(tt.args.strs); !reflect.DeepEqual(got, tt.want) {
 				t.Errorf("groupAnagrams() = %v, want %v", got, tt.want)
 			}
 		})

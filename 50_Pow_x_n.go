@@ -8,11 +8,12 @@ Example 1:
 Input: x = 2.00000, n = 10
 Output: 1024.00000
 */
+package leetcodego
 func myPow(x float64, n int) float64 {
-    return backtrack(x, n, 1)
+    return backtrack6(x, n, 1)
 }
 
-func backtrack(x float64, n int, res float64) float64{
+func backtrack6(x float64, n int, res float64) float64{
     if n==0{
         return res
     }
@@ -25,5 +26,5 @@ func backtrack(x float64, n int, res float64) float64{
         }
     }
 
-    return backtrack(x*x, n/2, res)
+    return backtrack6(x*x, n/2, res)
 }

@@ -1,3 +1,4 @@
+package leetcodego
 func coinChange(coins []int, amount int) int {
     //TC O(n), SC O(n)
     memo := make([]int, amount + 1)

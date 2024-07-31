@@ -1,3 +1,4 @@
+package leetcodego
 func rearrangeArray(nums []int) []int {
     //credi to kevinjunior, TC O(n), SC O(n)
     ans := make([]int, len(nums))

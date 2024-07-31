@@ -1,6 +1,6 @@
 package leetcodego
 
-func maxOperations(nums []int, k int) int {
+func maxOperations2(nums []int, k int) int {
     //TC O(n), SC O(n)
     dict := make(map[int]int)
     for _, num := range nums{

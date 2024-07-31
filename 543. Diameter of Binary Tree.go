@@ -6,6 +6,7 @@
  *     Right *TreeNode
  * }
  */
+ package leetcodego
  func diameterOfBinaryTree(root *TreeNode) int {
     res := 0
     var findDepth func(*TreeNode) int

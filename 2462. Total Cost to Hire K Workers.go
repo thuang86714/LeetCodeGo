@@ -1,5 +1,5 @@
 package leetcodego
-
+import "container/heap"
 func totalCost(costs []int, k int, candidates int) int64 {
     //credit to vasakris
 	minHeap := &MinHeap{}

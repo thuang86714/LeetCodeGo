@@ -1,7 +1,6 @@
 package leetcodego
-import "testing"
 
-func groupAnagrams(strs []string) [][]string {
+func groupAnagrams2(strs []string) [][]string {
     //using hashmap, with key is int slice, and slice of string as value
     //TC O(m*n), where m is len(strs) and n is avg len of all words in strs
     //SC O(m)

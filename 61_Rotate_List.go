@@ -17,6 +17,7 @@ Output: [4,5,1,2,3]
  *     Next *ListNode
  * }
  */
+ package leetcodego
 func rotateRight(head *ListNode, k int) *ListNode {
     if head ==nil || k==0{
         return head

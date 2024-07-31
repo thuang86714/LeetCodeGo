@@ -13,6 +13,7 @@ Explanation: From the top-left corner, there are a total of 3 ways to reach the 
 2. Down -> Down -> Right
 3. Down -> Right -> Down
 */
+package leetcodego
 func uniquePaths(m int, n int) int {
     //credit to brianchang_tw
     //dp problem

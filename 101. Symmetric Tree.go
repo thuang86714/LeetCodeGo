@@ -1,10 +1,5 @@
 package leetcodego
 
-type TreeNode struct {
-    Val int
-    Left *TreeNode
-    Right *TreeNode
-}
 
  func isEqual(L *TreeNode, R *TreeNode) bool{
     if L == nil && R == nil{

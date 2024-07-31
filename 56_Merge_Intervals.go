@@ -14,7 +14,9 @@ Input: intervals = [[1,4],[4,5]]
 Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping
 */
-func merge(intervals [][]int) [][]int {
+package leetcodego
+import "sort"
+func merge4(intervals [][]int) [][]int {
 	//credit to brianchiang_tw
     result := [][]int{}
     sort.Slice(intervals, func(a, b int) bool{

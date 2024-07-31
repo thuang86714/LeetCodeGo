@@ -1,3 +1,4 @@
+package leetcodego
 func oddEvenList(head *ListNode) *ListNode {
 	//TC O(n), SC O(1)
     if head == nil || head.Next == nil {

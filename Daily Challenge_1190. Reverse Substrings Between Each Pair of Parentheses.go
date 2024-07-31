@@ -1,5 +1,5 @@
 package leetcodego
-
+import "strings"
 
 func reverseString2(s string) string {
 	runes := []rune(s)
@@ -20,7 +20,7 @@ func reverseParentheses(s string) string {
 			for len(stack) > 0 && stack[len(stack)-1] != "(" {
 				str := stack[len(stack)-1]
 				stack = stack[:len(stack)-1]
-				rev.WriteString(reverseString(str))
+				rev.WriteString(reverseString2(str))
 			}
 			stack = stack[:len(stack)-1] // Pop the '('
 			stack = append(stack, rev.String())

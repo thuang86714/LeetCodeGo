@@ -1,6 +1,6 @@
 package leetcodego
 
-func averageOfLevels(root *TreeNode) []float64 {
+func averageOfLevels2(root *TreeNode) []float64 {
 	//BFS, TC O(n)
 	toVisitSlice := []*TreeNode{root}
 	ansSlice := []float64{}

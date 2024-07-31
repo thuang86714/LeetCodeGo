@@ -1,6 +1,6 @@
 package leetcodego
 
-func isAnagram(s string, t string) bool {
+func isAnagram2(s string, t string) bool {
     runeCountMap := make(map[rune]int)
     for _, b := range s{
         runeCountMap[b]++

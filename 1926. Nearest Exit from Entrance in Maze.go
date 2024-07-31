@@ -1,3 +1,4 @@
+package leetcodego
 func nearestExit(maze [][]byte, entrance []int) int {
     dirs := [][]int{{1, 0}, {0, 1}, {-1, 0}, {0, -1}}
     m, n := len(maze), len(maze[0])

@@ -7,7 +7,7 @@ type SmallestInfiniteSet struct {
 }
 
 
-func Constructor() SmallestInfiniteSet {
+func Constructor2() SmallestInfiniteSet {
     return SmallestInfiniteSet{
         removed: map[int]bool{},
         curMin: 1,

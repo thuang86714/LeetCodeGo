@@ -1,3 +1,4 @@
+package leetcodego
 func moveZeroes(nums []int)  {
     j := 0
     for i:= 0; i < len(nums); i++{

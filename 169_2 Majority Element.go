@@ -1,6 +1,6 @@
 package leetcodego
 
-func majorityElement(nums []int) int {
+func majorityElement2(nums []int) int {
 	//counting sort, TC O(n), SC O(n)
 	ans, curCount := 0, 0
 	numCountMap := make(map[int]int)

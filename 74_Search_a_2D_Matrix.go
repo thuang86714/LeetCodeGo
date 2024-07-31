@@ -32,7 +32,7 @@ func searchMatrix(matrix [][]int, target int) bool {
 
 }
 
-func searchMatrix(matrix [][]int, target int) bool {
+func searchMatrix2(matrix [][]int, target int) bool {
 	n, left, right := len(matrix[0]), 0, len(matrix)*len(matrix[0])-1
 	var middle, row, col, value int
 	for left <= right{

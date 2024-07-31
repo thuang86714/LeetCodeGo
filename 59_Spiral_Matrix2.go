@@ -7,6 +7,7 @@ Example 2:
 
 Input: n = 1
 Output: [[1]]*/
+package leetcodego
 func generateMatrix(n int) [][]int {
     //credit to oizg
     result := make([][]int, n)

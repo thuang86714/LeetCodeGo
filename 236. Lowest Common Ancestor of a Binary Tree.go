@@ -6,6 +6,7 @@
  *     Right *TreeNode
  * }
  */
+ package leetcodego
  func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	//DFS, TC O(n), SC O(logn)
 	if root == nil{

@@ -14,6 +14,7 @@ Example 2:
 Input: strs = [""]
 Output: [[""]]
 */
+package leetcodego
 func groupAnagrams(strs []string) [][]string {
     mp := map[[26]int][]string{}
     for _, s :=range strs{

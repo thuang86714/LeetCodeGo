@@ -1,4 +1,4 @@
-package leetcodedynamicprogramming
+package leetcodego
 
 func lengthOfLastWord(s string) int {
     //TC O(n), SC O(1)

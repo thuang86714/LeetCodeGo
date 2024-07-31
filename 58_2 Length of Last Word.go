@@ -1,7 +1,7 @@
 package leetcodego
 
 
-func lengthOfLastWord(s string) int {
+func lengthOfLastWord2(s string) int {
 	ans := 0
 	for i := len(s) - 1; i >= 0; i-- {
 		if s[i] == ' ' && ans != 0 {

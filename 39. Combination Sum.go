@@ -1,6 +1,6 @@
 package leetcodego
 
-var ans [][]int
+var ans2 [][]int
 func findCombo2(candidates, curCombo []int, target, curSum, idx int){
     //both TC SC areO(2^n*k), where k is avg len of all combo, 
     if curSum > target {
@@ -9,7 +9,7 @@ func findCombo2(candidates, curCombo []int, target, curSum, idx int){
     if curSum == target {
         temp := make([]int, len(curCombo))
         copy(temp, curCombo)
-        ans = append(ans, temp)
+        ans2 = append(ans2, temp)
         return
     }
 
@@ -22,8 +22,8 @@ func findCombo2(candidates, curCombo []int, target, curSum, idx int){
     }
 }
 func combinationSum2(candidates []int, target int) [][]int {
-    ans = [][]int{}
+    ans2 = [][]int{}
     curSum, curCombo := 0, []int{}
     findCombo2(candidates, curCombo, target, curSum, 0)
-    return ans
+    return ans2
 }

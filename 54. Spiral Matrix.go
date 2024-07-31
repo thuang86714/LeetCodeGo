@@ -1,4 +1,5 @@
-func spiralOrder(matrix [][]int) []int {
+package leetcodego
+func spiralOrder2(matrix [][]int) []int {
     //TC O(m*n), SC O(1)
     left, right, top, bottom := 0, len(matrix[0]) - 1, 0, len(matrix) - 1
     res := []int{}

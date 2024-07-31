@@ -1,3 +1,4 @@
+package leetcodego
 func firstPalindrome(words []string) string {
     for _, word:= range words{
         i, j := 0, len(word) - 1
